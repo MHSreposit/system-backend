@@ -1,0 +1,22 @@
+{
+  "name": "backend-mhs",
+  "version": "1.0.0",
+  "description": "Api da backend do MHS",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":  "nodemon"
+  },
+  "author": "Natanael Figueiredo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2",
+    "nodemon": "^2.0.22"
+  }
+}
