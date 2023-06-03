@@ -26,7 +26,7 @@ mongo
   )
   .then(() => {
     console.log("Connected to database");
-    return json({Connect});
+    return json({message:"conected"});
   })
   .catch((e) => console.log(e));
 
