@@ -41,7 +41,7 @@ app.use(
 const users = [];
 
 app.get("/", (req, res) => {
-  res.json({message: process.env.DB_USER});
+  res.json({message: "Hello word " + process.env.DB_USER});
 });
 
 app.post('/person', async (req, res) =>{
