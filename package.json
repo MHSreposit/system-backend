@@ -7,17 +7,22 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon ./index.js localhost 7070",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon"
   },
   "author": "Natanael Figueiredo",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.1.3",
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.2.2",
-    "nodemon": "^2.0.22"
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
+    "pug": "^3.0.2"
   }
 }
