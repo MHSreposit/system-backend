@@ -31,7 +31,7 @@ mongo
 
 const port = process.env.PORT || 7070;
 
-console.log(dontev.parsed); //ALERTA: Não fazer deploy com essa function
+//console.log(dontev.parsed); //ALERTA: Não fazer deploy com essa function
 
 const Person = require ('./models/person');
 require("./userDetails");
