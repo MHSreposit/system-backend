@@ -49,7 +49,7 @@ const users = [];
 
 //INDEX
 app.get("/", (req, res) => {
-  res.json({message: "Hello word "});
+  res.json({message: "Hello word"});
 });
 
 //Este grupo cria uma segunda tabela PESSOA(People) não está sendo usado 
@@ -167,7 +167,7 @@ app.post("/deleteuser", async (req, res) => {
 app.post("/userData", async (req, res) => {
     const { token } = req.body;
     try {
-      const user = jwt.verify(token, JWT_SECRET, (err, res) => {
+      const user = jwt.verify(token, jwt_secret, (err, res) => {
         if (err) {
           return "token expired";
         }
