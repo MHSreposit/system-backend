@@ -73,7 +73,7 @@ app.get("/users", async (req, res) => {
   const allUser = await User.find({}, {_id:0, email:0, 
     password:0, __v:0}).sort({score:-1}); //os campos que estão com os Zeros não aparecerão
   try {
-    res.send({ status: "ok", data: allUser });
+    res.send({data: allUser});
   } catch (error) {
     console.log(error);
   }
@@ -134,7 +134,7 @@ app.post("/user", async (req, res) => {
       return res.json({ status: "User Not Exists!!"});
     }
     try {
-      res.send({ status: "ok", data: getUser});
+      res.send({data: getUser});
     } catch (error) {
       console.log(error);
     }
