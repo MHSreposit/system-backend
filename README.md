@@ -5,6 +5,8 @@
 
 *Excluir debug.log que Mostra informações do .ENV
 
+Obs. sempre quando for fazer o git pela primeira vez checar o git branch
+
 # CONFIGURAÇÕES PARA TESTE
 "start": "nodemon ./index.js localhost 7070", //esse comando automatiza a execução do servidor
 
