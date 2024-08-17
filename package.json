@@ -25,5 +25,14 @@
     "nodemailer": "^6.9.3",
     "nodemon": "^2.0.22",
     "pug": "^3.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MHSreposit/mhs_backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MHSreposit/mhs_backend/issues"
+  },
+  "homepage": "https://github.com/MHSreposit/mhs_backend#readme"
 }
