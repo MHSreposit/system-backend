@@ -49,7 +49,7 @@ const users = [];
 
 //INDEX
 app.get("/", (req, res) => {
-  res.json({message: "Hello word"});
+  res.json({message: "Hello word/ Backend server developed by MHS"});
 });
 
 //Este grupo cria uma segunda tabela PESSOA(People) não está sendo usado 
