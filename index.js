@@ -29,6 +29,8 @@ mongo
   })
   .catch((e) => console.log(e));
 
+//Atenção este backend se comunica com um Banco de Dados Externo
+//Porém precisa ser configurado com o seu próprio BD no seu arquivo.env
 const port = process.env.PORT || 7070;
 
 //console.log(dontev.parsed); //ALERTA: Não fazer deploy com essa function
