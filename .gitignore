@@ -1,3 +1,11 @@
-#ignore node_modules
-node_modules
-/.env
+# Ignorar variáveis de ambiente
+.env
+
+# Ignorar logs
+debug.log
+npm-debug.log
+yarn-error.log
+
+# Ignorar node_modules
+node_modules/
+
